@@ -42,6 +42,10 @@
   margin:  1.5rem;
 }
 
+.car-container{
+  margin-bottom: 7rem;
+}
+
 .btn-1,
 .btn-carrito{
   position: relative;
@@ -100,6 +104,12 @@
   }
 }
 
+.b-dark{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
 .button {
   position: relative;
   width: 120px;
@@ -107,15 +117,15 @@
   background-color: #000;
   display: flex;
   align-items: center;
-  color: white;
   flex-direction: column;
   justify-content: flex-end;
+  color: white;
   border: none;
   padding: 12px;
   gap: 12px;
   border-radius: 8px;
   cursor: pointer;
-  margin: 2rem;
+  margin: 1rem;
 }
 
 .button::before {
